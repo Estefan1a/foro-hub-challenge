@@ -1,4 +1,4 @@
-package com.aluracursos.challengeforohub.infra;
+package com.aluracursos.challengeforohub.infra.exceptions;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;

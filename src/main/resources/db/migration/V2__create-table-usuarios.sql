@@ -1,9 +1,7 @@
-CREATE TABLE topicos (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    titulo VARCHAR(255) NOT NULL,
-    mensaje TEXT NOT NULL,
-    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    autor VARCHAR(100) NOT NULL,
-    curso VARCHAR(100) NOT NULL,
-    status_de_topico VARCHAR(50) NOT NULL DEFAULT 'ACTIVO'
+create table usuarios (
+    id bigint not null auto_increment,
+    login varchar (100) not null,
+    contrasena varchar(255) not null,
+
+    primary key(id)
 );

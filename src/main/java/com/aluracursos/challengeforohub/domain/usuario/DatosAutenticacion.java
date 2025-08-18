@@ -1,4 +1,4 @@
 package com.aluracursos.challengeforohub.domain.usuario;
 
-public record DatosAutenticacion() {
+public record DatosAutenticacion(String login, String contrasena) {
 }
