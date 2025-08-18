@@ -30,6 +30,7 @@ Flyway para la gestión de migraciones de base de datos
 Maven como gestor de dependencias
 
 ## 📂 Estructura del proyecto
+```
 src/main/java/com/tuusuario/proyecto
 │
 ├── controller        -> Controladores REST
@@ -38,19 +39,19 @@ src/main/java/com/tuusuario/proyecto
 │   └── ...           
 ├── service           -> Lógica de negocio
 └── ...
-
+```
 ## 📋 Endpoints principales
 🔹 Tópicos
 
-GET /topicos → Listar todos los tópicos
+⭐ GET /topicos → Listar todos los tópicos
 
-GET /topicos/{id} → Obtener un tópico por ID
+⭐ GET /topicos/{id} → Obtener un tópico por ID
 
-POST /topicos → Crear un nuevo tópico
+⭐ POST /topicos → Crear un nuevo tópico
 
-PUT /topicos/{id} → Actualizar un tópico
+⭐ PUT /topicos/{id} → Actualizar un tópico
 
-DELETE /topicos/{id} → Eliminar un tópico
+⭐ DELETE /topicos/{id} → Eliminar un tópico
 
 ## 📌 Ejemplo de JSON para crear un tópico:
 
